@@ -6,17 +6,13 @@ Demo repo for Hello World sequences to build on Hedera, using Javascript.
   <img src="./img/gitpod-open-button.svg" />
 </a>
 
-To follow along, please read the **accompanying tutorial** at [docs.hedera.com](#TODO_LINK) (WIP).
+To follow along, please read the **accompanying tutorial** at [docs.hedera.com](https://docs.hedera.com/hedera/getting-started/environment-setup).
 
 Note that this demo repo is also available in 3 programming languages:
 
 - [Javascript](https://github.com/hedera-dev/hello-future-world-js 'Hello Future World - Javascript') (this repo)
-- [Java](https://github.com/hedera-dev/hello-future-world-java 'Hello Future World - Java') (WIP)
-- [Go](https://github.com/hedera-dev/hello-future-world-go 'Hello Future World - Go') (WIP)
-
-> ⚠️ NOTE that this repo is still a work in progress,
-> and is therefore incomplete.
-> Sections are explicitly marked `(WIP)` as markers/ reminders.
+- [Java](https://github.com/hedera-dev/hello-future-world-java 'Hello Future World - Java')
+- [Go](https://github.com/hedera-dev/hello-future-world-go 'Hello Future World - Go')
 
 ## How to run
 
@@ -110,9 +106,7 @@ Steps:
 
 Demonstrates: Use of the Hedera network, at a base level.
 
-<!--
-[Go to accompanying tutorial](#TODO_LINK). (WIP)
--->
+[Go to accompanying tutorial](https://docs.hedera.com/hedera/getting-started/web2-developers/transfer-hbar).
 
 What you will accomplish:
 
@@ -155,9 +149,7 @@ Steps:
 
 Demonstrates: Use of the Hedera Token Service (HTS).
 
-<!--
-[Go to accompanying tutorial](#TODO_LINK). (WIP)
--->
+[Go to accompanying tutorial](https://docs.hedera.com/hedera/getting-started/web2-developers/create-a-token).
 
 What you will accomplish:
 
@@ -201,9 +193,7 @@ Steps:
 
 Demonstrates: Use of the Hedera Consensus Service (HCS).
 
-<!--
-[Go to accompanying tutorial](#TODO_LINK). (WIP)
--->
+[Go to accompanying tutorial](https://docs.hedera.com/hedera/getting-started/web2-developers/create-a-topic).
 
 What you will accomplish:
 
@@ -247,9 +237,7 @@ Steps:
 
 Demonstrates: Use of the Hedera Smart Contract Service (HSCS).
 
-<!--
-[Go to accompanying tutorial](#TODO_LINK). (WIP)
--->
+[Go to accompanying tutorial](https://docs.hedera.com/hedera/getting-started/evm-developers/deploy-a-contract).
 
 What you will accomplish:
 
