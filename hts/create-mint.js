@@ -1,3 +1,16 @@
+import dotenv from 'dotenv';
+import { fileURLToPath } from 'url';
+import { dirname, resolve } from 'path';
+
+// __dirname shim for ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+// tell dotenv exactly where to look
+dotenv.config({
+  path: resolve(__dirname, '../.env'),
+});
+
 import {
   Hbar,
   Client,
@@ -12,10 +25,9 @@ import {
 async function main() {
   let client;
   try {
-    // Your account ID and private key from string value
-    const MY_ACCOUNT_ID = AccountId.fromString('0.0.5392976');
+    const MY_ACCOUNT_ID = AccountId.fromString(process.env.MY_ACCOUNT_ID);
     const MY_PRIVATE_KEY = PrivateKey.fromStringECDSA(
-      'db7aed15b6e7d636ef0382f9bbda3b843c3c96ed14795d704ccf38ba35f92ea0',
+      process.env.MY_PRIVATE_KEY,
     );
 
     // Pre-configured client for test network (testnet)
@@ -29,8 +41,8 @@ async function main() {
     // (1) Create Neva NFT
 
     const nftCreate = await new TokenCreateTransaction()
-      .setTokenName('Neva Vax Test2')
-      .setTokenSymbol('NEVA2')
+      .setTokenName('Neva Chicken')
+      .setTokenSymbol('NEVA')
       .setTokenType(TokenType.NonFungibleUnique)
       .setDecimals(0)
       .setInitialSupply(0)
@@ -60,7 +72,7 @@ async function main() {
 
     // Max transaction fee as a constant
     const maxTransactionFee = new Hbar(50);
-    let CID = 'ipfs://QmR6UaFbYq1NBUqtW6YFRpPyNLQXzSBRjkAyH4jQHCUTXi';
+    const CID = `ipfs://${process.env.CID}`;
 
     // MINT NEW BATCH OF NFTs
     const mintTx = new TokenMintTransaction()

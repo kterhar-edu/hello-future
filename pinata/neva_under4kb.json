@@ -1,18 +1,18 @@
 {
-  "name": "Neva #1",
-  "description": "One‑off under‑4 KB JPEG minted on Hedera.",
+  "name": "Neva NFT",
+  "description": "First of 1, just for her mama",
   "image": "ipfs://QmNMzC3FA8kdr1nJFAqepTytn7qguNwUuFHjBr5Gzkq29T",
   "type": "image/jpeg",
-  "format": "[email protected]",
+  "format": "HIP412@2.0.0",
   "checksum": "45e7d4b289e65b49ddef187318f76c5b3d7bc448b0e6a214b0cffe273a179bda",
   "attributes": [
     {
-      "trait_type": "Size",
-      "value": "≤4 KB"
+      "trait_type": "Chicken?",
+      "value": "TRUE"
     },
     {
       "trait_type": "Artist",
-      "value": "Your Name"
+      "value": "Bubsy"
     }
   ]
 }
