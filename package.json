@@ -27,6 +27,8 @@
   "homepage": "https://github.com/hedera-dev/hedera-tutorial-demo-base-template#readme",
   "dependencies": {
     "@hashgraph/sdk": "2.48.1",
+    "@pinata/sdk": "^2.1.0",
+    "crypto": "^1.0.1",
     "dotenv": "^16.4.5"
   },
   "devDependencies": {
