@@ -27,7 +27,7 @@
   "homepage": "https://github.com/hedera-dev/hedera-tutorial-demo-base-template#readme",
   "dependencies": {
     "@hashgraph/sdk": "2.48.1",
-    "dotenv": "16.4.5"
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
     "husky": "9.1.4",
